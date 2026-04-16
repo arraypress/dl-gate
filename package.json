@@ -1,5 +1,5 @@
 {
-  "name": "@arraypress/download-gate",
+  "name": "@arraypress/dl-gate",
   "version": "1.0.0",
   "description": "Pure-function download access gate — limit + IP + reset-cutoff enforcement for digital-product stores. Storage-agnostic.",
   "type": "module",
@@ -11,5 +11,5 @@
   "keywords": ["download", "gate", "rate-limit", "ip-restriction", "digital-products", "edge"],
   "author": "David Sherlock",
   "license": "MIT",
-  "repository": { "type": "git", "url": "https://github.com/arraypress/download-gate" }
+  "repository": { "type": "git", "url": "https://github.com/arraypress/dl-gate" }
 }

@@ -1,5 +1,5 @@
 /**
- * @arraypress/download-gate
+ * @arraypress/dl-gate
  *
  * Pure-function download access gate for digital-product stores. Single
  * source of truth for the question *"can this request download this
@@ -25,7 +25,7 @@
  * Returns a discriminated `GateResult`. The caller decides HTTP status
  * (typically 429 for `limit_reached`, 403 for the rest).
  *
- * @module @arraypress/download-gate
+ * @module @arraypress/dl-gate
  */
 
 const REASONS = {
@@ -45,7 +45,7 @@ const REASONS = {
  *
  * @example
  * ```ts
- * import { createDownloadGate } from '@arraypress/download-gate';
+ * import { createDownloadGate } from '@arraypress/dl-gate';
  *
  * const gate = createDownloadGate({
  *   queries: {

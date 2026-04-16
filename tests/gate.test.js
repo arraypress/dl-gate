@@ -1,5 +1,5 @@
 /**
- * @arraypress/download-gate — test suite.
+ * @arraypress/dl-gate — test suite.
  *
  * The gate is pure logic — every dependency goes through a closure, so
  * tests use simple stub queries / config loaders rather than a real DB.

@@ -1,4 +1,4 @@
-# @arraypress/download-gate
+# @arraypress/dl-gate
 
 Pure-function download access gate for digital-product stores. Single source of truth for the question *"can this request download this file right now?"* — combines per-(file, transaction) count limits, single-IP locking (or N-distinct-IPs cap), and soft reset semantics.
 
@@ -15,13 +15,13 @@ This package factors out the gate logic — the bit that's the same across every
 ## Install
 
 ```bash
-npm install @arraypress/download-gate
+npm install @arraypress/dl-gate
 ```
 
 ## Quick start
 
 ```ts
-import { createDownloadGate, REASON } from '@arraypress/download-gate';
+import { createDownloadGate, REASON } from '@arraypress/dl-gate';
 
 const gate = createDownloadGate({
   queries: {
